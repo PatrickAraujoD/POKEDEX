@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <h1>POKEDEX</h1>
+    <div id="resultado"></div>
+    <form class="form" id="form" action="">
+        <label for="pokemon">Digite o nome do pokemon: </label>
+        <input type="text" name="pokemon" id="pokemon"  placeholder="Digite aqui" required>
+        <button class="buscar-pokemon" id="btn">buscar</button>
+    </form>
+    <img src="" alt="" id="imgPokemon">
+    <div class="btns">
+        <button id="button-left"><img src="/assets/btn-left.png" alt="button-left"></button>
+        <button id="button-right"><img src="/assets/btn-right.png" alt="button-right"></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

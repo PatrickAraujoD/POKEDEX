@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/assets/R.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(222, 20, 20);
+    margin-top: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.form label{
+    font-size: 20px;
+    color: rgb(222, 20, 20);
+}
+
+#pokemon {
+    border: none;
+    border: 2px solid rgb(222, 20, 20);
+    padding-left: 10px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.buscar-pokemon{
+    padding: 3px 10px;
+    background-color: rgb(222, 20, 20);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    transition: 0.1s ease;
+}
+
+.buscar-pokemon:hover{
+    border: 1px solid rgb(222, 20, 20);
+    color: rgb(222, 20, 20);
+    background-color: transparent;
+}
+
+#pokemon::placeholder{
+    color: rgb(222, 20, 20)
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140%, -68%);
+    width: 210px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin:40% auto 0px auto;
+}
+
+#button-left, #button-right{
+    position: relative;
+}
+
+#button-left img, #button-right img {
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
